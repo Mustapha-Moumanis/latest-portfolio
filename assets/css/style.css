@@ -941,6 +941,7 @@ header {
 .tabContainer {
     overflow: hidden;
     position: relative;
+    padding-top: 30px;
 }
 .Tabcondent {
     position: absolute;
@@ -1100,6 +1101,15 @@ header {
     font-size: 18px;
     font-weight: 400;
     /* line-height: 24px; */
+}
+.text_link {
+    color: var(--main-text);
+    text-decoration: none;
+    background: linear-gradient(to right, var(--main-text), var(--main-text)), linear-gradient(to right, var(--sub-text), var(--sub-text));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms, color 300ms;
 }
 .cuberto {
     color: var(--main-text);
