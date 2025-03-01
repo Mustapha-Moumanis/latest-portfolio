@@ -1005,7 +1005,8 @@ header {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 0 40px;
+    /* gap: 0 40px; */
+    justify-content: space-between;
 }
 .gallery-item {
     margin-bottom: 30px;
@@ -1053,7 +1054,7 @@ header {
 }
 [data-content-type=content] > img:first-of-type {
     width: 400px;
-    max-height: 280px;
+    max-height: 350px;
     object-fit: cover;
 }
 .plumbing-grid {
