@@ -648,7 +648,8 @@ header {
 .media-main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 5%;
+    /* justify-content: space-between; */
 }
 .media-icons {
     width: 36px;
@@ -667,6 +668,14 @@ header {
 }
 .media-icons:hover img {
     filter: brightness(0) saturate(100%) invert(11%) sepia(1%) saturate(1367%) hue-rotate(161deg) brightness(98%) contrast(97%);
+}
+
+.media-icons i {
+    font-size: 20px;
+    color: white;
+}
+.media-icons:hover i {
+    color: black;
 }
 /*-----------------------[ 7.Section One CSS ]------------------------*/
 .section-one,
@@ -2051,8 +2060,13 @@ button.bottom-top-button:hover > img {
 .ph-bold.ph-github-logo:before {
     content: "\e576";
 }
+
 .ph-bold.ph-x-logo:before {
     content: "\e4bc";
+}
+
+.ph-bold.ph-linkedin-logo:before {
+    content: "\e2ee";
 }
 /* ------------------------------------------------*/
 /* Phosphor Icons End */
